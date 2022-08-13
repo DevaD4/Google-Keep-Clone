@@ -1,0 +1,35 @@
+.searchInput {
+  padding: 16px auto 0 10px;
+  position: relative;
+  left: 13rem;
+  top: 2px;
+  width: 50%;
+  z-index: 9;
+}
+
+.searchInput > span {
+      position: absolute;
+      top: 55%;
+      transform: translateY(-50%);
+      right: -50px;
+      color: #000000;
+}
+
+.searchInput > input {
+      width: 100%;
+      background-color: #e8eaed;
+      border: none;
+      outline: none;
+      color: #525355;
+      padding: 10px;
+      border-color: #000000;
+      border-radius: 6px;
+      padding-left: 50px;
+      text-align: center;
+}
+
+.searchInput::placeholder {
+    color: #e8eaed;
+}
+
+
